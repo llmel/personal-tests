@@ -1,0 +1,9 @@
+testando vim, pois é um editor de texto complicado.
+ESC - sempre coloca o vim em modo de visualização
+Todos os comandos abaixo mudam o vim para inserção, com exceção do r:
+i - insere texto antes da posição atual do cursor
+a - insere o texto depois da posição atual do cursor
+r - Substitui o texto na posição atual de onde se encontra o cursor
+A - insere o texto no final da linha onde se encontra o cursor
+o - adiciona uma linha abaixo da linha onde se encontra o cursor
+O - adiciona uma linha acima da linha onde se encontra o cursor
