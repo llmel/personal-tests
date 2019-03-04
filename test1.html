@@ -10,5 +10,29 @@
     <h2>This is my first test</h2>
     <br>
     I am trying to control the git tool.
+    <form>
+        <h2>Solicitação de informações</h2>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        <br>
+        <input type="text" id="bairro" placeholder="Digite seu bairro">
+        <br><br>
+        Qual o seu sexo ?
+        <br><br>
+        <select id="sexo">
+            <option value="">Selecione...</option>
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+        </select>
+        <button type="button" onclick="show_name()">Clique aqui</button>
+    </form>
 </body>
 </html>
+<script>
+    function show_name(){
+        if (sexo.value="2") 
+           alert("Você é homem");
+        else 
+            alert("Você é mulher");
+        //alert("Seu nome é "+nome.value);
+    }
+</script>
